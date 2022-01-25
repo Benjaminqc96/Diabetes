@@ -28,7 +28,7 @@ Lo primero que se hace es el análisis exploratorio de los datos para saber la c
 </p>
 
 <p align="center"> 
-  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Presión.png">
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Presion.png">
 </p>
 
 <p align="center">
