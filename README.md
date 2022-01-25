@@ -20,7 +20,7 @@ Lo primero que se hace es el análisis exploratorio de los datos para saber la c
 </p>
 
 <p align="center"> 
-  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Numerocasos.png">
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Glucosa.png">
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ Lo primero que se hace es el análisis exploratorio de los datos para saber la c
 </p>
 
 <p align="center"> 
-  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Numerocasos.png">
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Presión.png">
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@ Lo primero que se hace es el análisis exploratorio de los datos para saber la c
 </p>
 
 <p align="center"> 
-  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Numerocasos.png">
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Grosorp.png">
 </p>
 
 <p align="center">
@@ -44,14 +44,14 @@ Lo primero que se hace es el análisis exploratorio de los datos para saber la c
 </p>
 
 <p align="center"> 
-  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Numerocasos.png">
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Insulina.png">
 </p>
 <p align="center">
   Índice de masa corporal
 </p>
 
 <p align="center"> 
-  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Numerocasos.png">
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/IMC.png">
 </p>
 <p align="center">
   Pedegree de diabetes
@@ -62,3 +62,4 @@ Lo primero que se hace es el análisis exploratorio de los datos para saber la c
 </p>
 
 
+Como hipótesis en el párrafo anterior se plantea que los datos contienen imperfecciones, y en efecto se cumplen dado que algunas variables contienen datos faltantes y el conjunto está desbalanceado, *i.e* hay más casos de mujeres sanas que de mujeres que padecen diabetes, esto ultimo representa un problema dado que si se entrena un modelo con un conjunto de datos desbalanceado va a sesgar los estimadores a elegir la clase predominante.
