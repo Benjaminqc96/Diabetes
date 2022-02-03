@@ -90,5 +90,39 @@ Una vez con el conjunto balanceado entonces se procede a hacer la ingesta de dat
 </p>
 
 <p align="center"> 
-  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/rrl.png">
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/rlb.png">
 </p>
+
+<p align="center">
+  Resumen del perceptrón multicapa
+</p>
+
+<p align="center"> 
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/Precision.png">
+</p>
+
+
+Ambos modelos aparentan robustez, sin embargo el desempeño debe medirse de acuerdo a varios criterios. En cuestión de precisión la regresión logística clasifica de manera acertada el 76% de los casos en el entrenamiento mientras que el perceptrón clasifica de manera acertada 86%, evidenciando una superioridad numerica, sin embargo la verdadera bracha entre los dos algoritmos se verá plasmada en las curvas ROC y el área bajo la curva, así como en la validación cruzada.
+
+<p align="center">
+  Curva ROC RL
+</p>
+
+<p align="center"> 
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/rocrl.png">
+</p>
+
+<p align="center">
+  Curva ROC PML
+</p>
+
+<p align="center"> 
+  <img width="500" src="https://github.com/Benjaminqc96/Diabetes/blob/main/rocmlp.png">
+</p>
+
+
+Analizando las curvas ROC tenemos que la regresión logística tiene una probabilidad de acierto de clasificar acertadamente un caso de 82%, mientras que el PML tiene un 88% de probabilidad, por tanto, hay superioridad numérica del perceptron sobre la regresión logística.
+
+Tomando en cuenta la validación cruzada la precisión promedio de la regresión logística es de 76.1%, con una variabilidad del 4.8%. Para el PML la precisión promedio es de 86.8%, con una variabilidad de 3.62%. Nuevamente hay superioridad por parte del PML.
+
+En todos los criterios evaluados es superior un algortimo del otro, por lo cuál en preferente hacer uso del "mejor", si bien no es perfecto, las desventajas asociadas al PML son poco considerables dado que únicamente se trata de infraestructura para realizar el cómputo, necesidad que puede ser satisfecha con la infraestructura disponible en internet de acceso "gratuito".
